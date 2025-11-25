@@ -1,0 +1,179 @@
+@media screen and (max-width: 1200px) {
+    
+    header{
+        max-width: 900px;
+        transition: all 0.3s ease;
+        .header-bar{
+            .left-header{
+                .logo{}
+                navbar{
+                    gap: 19px;
+                }
+            }
+            .cta-button{
+                max-width: 170px;
+                .sign-up-button{
+                    width: 100px;
+                }
+            }
+        }
+        .header-hero{
+            transition: all 0.3s ease;
+            width: 455px;
+            .heading-wrap{
+                .heading-1{
+                    font-size: 40px;
+                }
+                .heading-2{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .section-1{
+        max-width: 900px;
+        transition: all 0.3s ease;
+        .box-1{
+            .heading{}
+            .wrap-hero{
+                .box{
+                    max-width: 285px;
+                    .hero-img{
+                        width: 247px;
+                    }
+                    .hero-img,.heading-1,.heading-2,.price,.button{
+                        width: 247px;
+                    }
+                    .heading-1{}
+                    .heading-2{}
+                    .price{
+                        .number{
+                            font-size: 18px;
+                            align-content: center;
+                        }
+                        .icon-wrap{
+                            padding: 0 5px;
+                            gap: 5px;
+                            .item{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .box-2{
+            .wrap-side{
+                .side{
+                    gap: 12px;
+                    .about{}
+                    .heading{
+                        font-size: 36px;
+                        line-height: 51px;
+                    }
+                    .text{}
+
+                }
+                .footer-wrap-side{
+                    gap: 14px;
+                    .line-1{
+                        .box-1-line{
+                            gap: 5px;
+                            max-width: 164px;
+                            .head,.content{
+                                max-width: 150px;
+                            }
+                            .head{
+                                font-size: 20px;
+                            }
+                            .content{
+                                font-size: 14px;
+                            }
+                            .content-1{
+                                margin-left: 7px;
+                            }
+                        }
+                    }
+                    .line-2{
+                        .line-2-wrap{
+                            max-width: 334.04px;
+                            .side-line{
+                                .heading-line{
+                                    font-size: 20px;
+                                }
+                                .text-line{
+                                    font-size: 14px;
+                                }
+                            }
+                            .hero-line{
+                                max-width: 154px;
+                                height: auto;
+                                img{
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .box-3{
+            
+            .side-left{
+                max-width: 344px;
+            }
+            .side-right{
+                max-width: 533px;
+                .side-content-1{
+                    .contact{}
+                    .text{}
+                }
+                .side-content-2{
+                    .input-wrap-1{
+                        max-width: 533px;
+                        .input-box{
+                            #in{
+                                width: 240px;
+                            }
+                        }
+                    }
+                    .input-wrap-2{
+                        max-width: 533px;
+                        textarea{
+                            width: 513px;
+                        }
+                    }
+                }
+                .side-content-3{}
+            } 
+        }
+    }
+    .back-bottom{
+        .section-2{
+            max-width: 900px;
+            transition: all 0.3s ease;
+            .sec-2-wrap{
+                .testimoni{}
+                .heading{}
+                .carousel-wrap{
+                    .carousel{
+                        width: 820px;
+                        .box{
+                            max-width: 250px;
+                            .avt{}
+                            .content-box{
+                                .dot{}
+                                .text{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            max-width: 900px;
+        }
+    }
+}
