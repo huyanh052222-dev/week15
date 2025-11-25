@@ -358,7 +358,7 @@ body{
                             max-width: 278px;
                             background-color: var(--text-white);
                             padding: 8px 0;
-                            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
                             border-radius: 4px;
                             .avt{
                                 height: 100px;
