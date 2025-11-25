@@ -572,6 +572,7 @@ header{
                         border: 2px solid var(--secondary-color);
                         border-radius: 4px;
                         font-size: var(--s2-sub);
+                        background-color: #F6F6F6;
                         font-weight: 600;
                         color: #ABABAB;
                         padding-left: 16px;
