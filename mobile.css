@@ -112,11 +112,16 @@ body{
         }
     }
     .section-1{
-        max-width: 375px;
+        /* max-width: 375px; */
+        width: 100%;
         transition: all 0.3s ease;
         gap: 50px;
         .box-1{
+            overflow: visible !important;
             .heading{
+                width: 100%;
+                max-width: 335px;
+                margin: 0 auto;
                 .discover{
                     width: 132px;
                 }
@@ -131,11 +136,15 @@ body{
                         display: none;
                     }
                 }
-                .wrap-hero{
+                /* .wrap-hero{
                     max-width: 375px;
-                }
+                } */
             }
+                
             .wrap-hero{
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
                 .box{
                     max-width: 285px;
                     width: 280px;

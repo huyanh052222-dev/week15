@@ -209,7 +209,6 @@ header{
         }
         .wrap-hero{
             display: flex;
-            /* flex-wrap: wrap; */
             gap: 20px;
             justify-content: center;
             overflow: hidden;
@@ -567,7 +566,7 @@ header{
                     max-width: 562px;
                     width: 100%;
                     textarea {
-                        width: 562px;
+                        width: 557px;
                         height: 98.2px;
                         border: 2px solid var(--secondary-color);
                         border-radius: 4px;
